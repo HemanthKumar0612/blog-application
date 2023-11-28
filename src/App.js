@@ -1,9 +1,10 @@
 import './App.css';
+import AddBlog from './components/AddBlog';
 
 function App() {
   return (
     <div className="App">
-      Welcome
+      <AddBlog></AddBlog>
     </div>
   );
 }
