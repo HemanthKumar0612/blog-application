@@ -1,6 +1,6 @@
 .container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  margin: 20px auto;
+  padding: 20px;
   max-width: 35%;
 }
 .navbar {

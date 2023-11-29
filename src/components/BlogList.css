@@ -1,0 +1,14 @@
+.cards-container{
+    margin: 20px auto;
+    padding: 20px auto;
+    max-width: 80%;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    margin: 2px;
+    padding: 2px;
+}

@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import './App.css';
 import AddBlog from './components/AddBlog';
+import BlogList from './components/BlogList';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+      <BlogList blogs = {blogs}></BlogList>
       {/* Passing handleAddBlog function as a prop to AddBlog FC */}
       <AddBlog handleAddBlog = {handleAddBlog}></AddBlog>
     </div>
